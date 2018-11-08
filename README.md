@@ -21,11 +21,11 @@ For our example, let's say that we have already determined the effectiveness of 
 
 We can now state our null hypothesis as:
 
-**$h_0: effectiveness $drug_a=.76$**
+**$H_0$: effectiveness drug_a = 0.76**
 
 ## The alternative hypothesis
 
-**$h_1: effectiveness $drug_a>.76$**
+**$H_1$: effectiveness drug_a > 0.76**
 
 ## Test Statistic
 
