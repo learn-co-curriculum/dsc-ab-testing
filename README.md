@@ -15,7 +15,7 @@ You will be able to:
 Any hypothesis testing will start with a given scenario. This will determine everything from what metrics are deemed important to realistically obtainable sample sizes. Goodheart's law can also be an important consideration when performing ongoing tests in attempts to optimize performance metrics.  
 
 
-## Defining the Null Hypothesis:  <img src="https://render.githubusercontent.com/render/math?math=H_0"> 
+## Defining the Null Hypothesis:  <img src="https://render.githubusercontent.com/render/math?math=\Large H_0"> 
 
 Once an appropriate metric has been selected, it's time to formally define the experiment with a null hypothesis. Typically, the null hypothesis is the claim that a researcher is hoping to refute. For example, a medical researcher might hope to show that a new drug is more effective than a previous treatment option. A common practice is then to define the null hypothesis as the contrary: there is no difference between the two drugs. The researcher hopes to refute the null hypothesis thereby proving their claim by contradiction. 
 
@@ -27,7 +27,7 @@ Formulating the null-hypothesis like this is apt to lead you into conducting a p
 
 Alternatively, if one of these two medications were more heavily researched, one might wish to compare the effectiveness of the new medication with a predetermined metric such as the average drop in blood pressure from medication. This would lead to a 1-sample t-test, as opposed to a two-sample t-test.
 
-## Investigating  <img src="https://render.githubusercontent.com/render/math?math=\alpha"> , power, effect size, and sample size
+## Investigating  <img src="https://render.githubusercontent.com/render/math?math=\Large \alpha"> , power, effect size, and sample size
 
 Finally, one must formulate the various surrounding parameters required to conduct the test. You've seen that there is an intimate relationship between  <img src="https://render.githubusercontent.com/render/math?math=\alpha">, power, sample size, and effect size. With that, questions such as "How costly is sample size?" are instrumental in experiment design. For example, in an online scenario, it might be quite easy to conduct experiments at scale. On the other hand, in medical research, larger sample sizes are apt to be extremely costly. Investigating the relationships between  <img src="https://render.githubusercontent.com/render/math?math=\alpha"> , power, effect size, and sample size is important for all experiments, and a suitable combination will depend on these contextual factors regarding implementation.
 
